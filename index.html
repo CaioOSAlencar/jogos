@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Jogos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Portal de Jogos</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#jogos">Jogos</a></li>
+                    <li><a href="#noticias">Notícias</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container intro">
+            <h2>Bem-vindo ao Portal de Jogos!</h2>
+            <p>Seu ponto de encontro para todas as novidades do mundo dos jogos.</p>
+        </div>
+    </section>
+
+    <section id="jogos">
+        <div class="container">
+            <h2>Jogos</h2>
+            <div class="game-list">
+                <div class="game-item">
+                    <h3>Jogo 1</h3>
+                    <p>Descrição do Jogo 1.</p>
+                </div>
+                <div class="game-item">
+                    <h3>Jogo 2</h3>
+                    <p>Descrição do Jogo 2.</p>
+                </div>
+                <!-- Adicione mais jogos aqui -->
+            </div>
+        </div>
+    </section>
+
+    <section id="noticias">
+        <div class="container">
+            <h2>Notícias</h2>
+            <div class="news-list">
+                <div class="news-item">
+                    <h3>Notícia 1</h3>
+                    <p>Descrição da Notícia 1.</p>
+                </div>
+                <div class="news-item">
+                    <h3>Notícia 2</h3>
+                    <p>Descrição da Notícia 2.</p>
+                </div>
+                <!-- Adicione mais notícias aqui -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <form id="contact-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Portal de Jogos. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
